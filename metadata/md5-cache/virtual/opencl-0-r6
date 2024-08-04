@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for OpenCL implementations
+EAPI=6
+IUSE=video_cards_amdgpu video_cards_i965 video_cards_nvidia
+KEYWORDS=amd64 x86
+RDEPEND=|| ( >=media-libs/mesa-9.1.6[opencl] amd64? ( video_cards_amdgpu? ( dev-libs/amdgpu-pro-opencl ) dev-util/intel-ocl-sdk ) video_cards_i965? ( dev-libs/beignet ) video_cards_nvidia? ( >=x11-drivers/nvidia-drivers-290.10-r2[opencl] ) )
+SLOT=0
+_md5_=94420c89b4d03fbc9afb724b54141d9d

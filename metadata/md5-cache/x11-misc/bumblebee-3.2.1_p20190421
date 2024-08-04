@@ -1,0 +1,15 @@
+DEFINED_PHASES=configure install postinst prepare setup
+DEPEND=dev-libs/glib:2 dev-libs/libbsd sys-apps/kmod x11-libs/libX11 sys-apps/help2man virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 sys-apps/shadow
+DESCRIPTION=Service providing elegant and stable means of managing Optimus graphics chipsets
+EAPI=6
+HOMEPAGE=https://bumblebee-project.org https://github.com/Bumblebee-Project/Bumblebee
+IUSE=+bbswitch video_cards_nouveau video_cards_nvidia
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PDEPEND=|| ( x11-misc/primus x11-misc/virtualgl )
+RDEPEND=dev-libs/glib:2 dev-libs/libbsd sys-apps/kmod x11-libs/libX11 virtual/opengl x11-base/xorg-drivers[video_cards_nvidia?,video_cards_nouveau?] bbswitch? ( sys-power/bbswitch )
+REQUIRED_USE=|| ( video_cards_nouveau video_cards_nvidia )
+SLOT=0
+SRC_URI=https://github.com/Bumblebee-Project/Bumblebee/archive/7aa457fe7b4fffc3b175ad36fdae00d7777065dc.tar.gz -> bumblebee-3.2.1_p20190421.tar.gz
+_eclasses_=autotools	e9ade2787b2f54643c7cdffbfa1cca9c	eqawarn	bb3d80ca38bc542ed397ab65f64256a6	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	user	875055ddd565382c728563992ae3abf7
+_md5_=220885a0f1e74f0d3605954f229e8b99

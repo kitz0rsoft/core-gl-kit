@@ -1,0 +1,12 @@
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure install prepare setup
+DEPEND=x11-base/xorg-proto x11-base/xorg-server >=sys-devel/libtool-2.2.6a sys-devel/m4 >=x11-misc/util-macros-1.18 dri? ( x11-base/xorg-server[-minimal] x11-libs/libdrm )
+DESCRIPTION=Driver for xorg-server
+EAPI=7
+IUSE=dri kernel_linux
+KEYWORDS=*
+RDEPEND=x11-base/xorg-proto x11-base/xorg-server >=sys-devel/libtool-2.2.6a sys-devel/m4 >=x11-misc/util-macros-1.18 dri? ( x11-base/xorg-server[-minimal] x11-libs/libdrm ) x11-libs/libpciaccess
+SLOT=0
+SRC_URI=https://gitlab.freedesktop.org/xorg/driver/xf86-video-tdfx/-/archive/xf86-video-tdfx-1.5.0/xf86-video-tdfx-xf86-video-tdfx-1.5.0.tar.bz2 -> xf86-video-tdfx-1.5.0-gitlab.tar.bz2
+_eclasses_=autotools	e9ade2787b2f54643c7cdffbfa1cca9c	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	d0939f99dd528dd0c5ec25284877bf5c	libtool	f143db5a74ccd9ca28c1234deffede96	linux-info	c90a203b1c14cfa77bd3e37a0e96c955	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=eaaf5509cf1898a9f5d5bdcb997583a1

@@ -1,0 +1,14 @@
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure prepare
+DEPEND=>=x11-libs/libva-2.4.0:=[X?,wayland?,drm] >=x11-libs/libdrm-2.4.52[video_cards_intel] wayland? ( >=dev-libs/wayland-1.11 ) virtual/pkgconfig
+DESCRIPTION=HW video decode support for Intel integrated graphics
+EAPI=7
+HOMEPAGE=https://github.com/intel/intel-vaapi-driver
+IUSE=wayland X
+KEYWORDS=*
+LICENSE=MIT
+RDEPEND=>=x11-libs/libva-2.4.0:=[X?,wayland?,drm] >=x11-libs/libdrm-2.4.52[video_cards_intel] wayland? ( >=dev-libs/wayland-1.11 )
+SLOT=0
+SRC_URI=https://github.com/intel/intel-vaapi-driver/releases/download/2.4.1/intel-vaapi-driver-2.4.1.tar.bz2 -> intel-vaapi-driver-2.4.1.tar.bz2
+_eclasses_=autotools	e9ade2787b2f54643c7cdffbfa1cca9c	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=1bee348c447f748f7a2ebb37add60aa5

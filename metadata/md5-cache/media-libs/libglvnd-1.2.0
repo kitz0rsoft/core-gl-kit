@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare setup unpack
+DEPEND=|| ( dev-lang/python:3.8 dev-lang/python:3.9 dev-lang/python:3.7 dev-lang/python:3.10 ) x11-libs/libX11 x11-proto/glproto x11-libs/libXext !media-libs/mesa-gl-headers >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+DESCRIPTION=The GL Vendor-Neutral Dispatch library
+EAPI=6
+HOMEPAGE=https://github.com/NVIDIA/libglvnd
+IUSE=+asm +glx +gles +egl debug
+KEYWORDS=*
+LICENSE=MIT
+RDEPEND=x11-libs/libX11 x11-proto/glproto x11-libs/libXext !media-libs/mesa-gl-headers !media-libs/mesa[-glvnd(-)]
+SLOT=0
+SRC_URI=https://www.github.com/NVIDIA/libglvnd/tarball/v1.2.0 -> libglvnd-v1.2.0.tar.gz
+_eclasses_=autotools	e9ade2787b2f54643c7cdffbfa1cca9c	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	eqawarn	bb3d80ca38bc542ed397ab65f64256a6	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	d3f9ec72badd0291b655682d67876adc	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=63c9150282694a00ffce1b633564afea

@@ -1,0 +1,15 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install postinst postrm setup
+DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DESCRIPTION=Pan-CJK OpenType/CFF font family
+EAPI=7
+HOMEPAGE=https://github.com/adobe-fonts/source-han-sans/
+IUSE=l10n_ja l10n_ko +l10n_zh-CN l10n_zh-TW X
+KEYWORDS=*
+LICENSE=Apache-2.0
+REQUIRED_USE=|| ( l10n_ja l10n_ko l10n_zh-CN l10n_zh-TW )
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=l10n_ja? ( ) l10n_ko? ( ) l10n_zh-CN? ( ) l10n_zh-TW? ( )
+_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
+_md5_=81812e646e92d542716e3211c5d1d771

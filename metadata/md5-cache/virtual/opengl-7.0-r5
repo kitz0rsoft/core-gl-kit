@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for OpenGL implementation
+EAPI=7
+KEYWORDS=*
+RDEPEND=>=media-libs/libglvnd-1.2.0
+SLOT=0
+_md5_=dc0f9bad604e3ea8d43867919cf3a28b

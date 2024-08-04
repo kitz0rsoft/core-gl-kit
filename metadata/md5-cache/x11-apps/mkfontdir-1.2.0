@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DEPEND=>=x11-apps/mkfontscale-1.2.0
+DESCRIPTION=create an index of X font files in a directory
+EAPI=7
+HOMEPAGE=https://www.x.org/wiki/ https://gitlab.freedesktop.org/xorg/app/mkfontdir
+KEYWORDS=*
+LICENSE=MIT
+RDEPEND=>=x11-apps/mkfontscale-1.2.0
+SLOT=0
+_md5_=4da6720f80c1bd27c9956316f48c86fe

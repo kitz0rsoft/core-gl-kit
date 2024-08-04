@@ -1,0 +1,15 @@
+BDEPEND=dev-util/ninja dev-util/cmake
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=!dev-libs/ocl-icd >=dev-util/opencl-headers-2024.05.08
+DESCRIPTION=Official Khronos OpenCL ICD Loader
+EAPI=7
+HOMEPAGE=https://github.com/KhronosGroup/OpenCL-ICD-Loader
+IUSE=test
+KEYWORDS=*
+LICENSE=Apache-2.0
+RDEPEND=!dev-libs/ocl-icd
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/KhronosGroup/OpenCL-ICD-Loader/tarball/861b68b290e76d08e7241608479c16431f529945 -> OpenCL-ICD-Loader-2024.05.08-861b68b.tar.gz
+_eclasses_=cmake	ac7cb516f6a288b6a82bc0649ce49878	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	d0939f99dd528dd0c5ec25284877bf5c	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	prefix	e51c7882b7b721e54e684f7eb143cbfe	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=dba5f3ef983d1446adf0fa9557dcf9a2
