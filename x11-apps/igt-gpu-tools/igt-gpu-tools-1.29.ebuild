@@ -8,7 +8,7 @@ inherit meson python-any-r1
 
 DESCRIPTION="Intel GPU userland tools"
 HOMEPAGE="https://01.org/linuxgraphics https://gitlab.freedesktop.org/drm/igt-gpu-tools"
-SRC_URI="https://www.x.org/releases/individual/app/igt-gpu-tools-1.28.tar.xz -> igt-gpu-tools-1.28.tar.xz"
+SRC_URI="https://www.x.org/releases/individual/app/igt-gpu-tools-1.29.tar.xz -> igt-gpu-tools-1.29.tar.xz"
 
 LICENSE="MIT"
 KEYWORDS="*"
