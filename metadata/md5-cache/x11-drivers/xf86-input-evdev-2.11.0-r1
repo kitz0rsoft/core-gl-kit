@@ -7,6 +7,6 @@ IUSE=kernel_linux
 KEYWORDS=*
 RDEPEND=sys-kernel/linux-headers x11-base/xorg-proto x11-base/xorg-server >=sys-devel/libtool-2.2.6a sys-devel/m4 >=x11-misc/util-macros-1.18 x11-base/xorg-server[udev] dev-libs/libevdev sys-libs/mtdev virtual/libudev:=
 SLOT=0
-SRC_URI=https://gitlab.freedesktop.org/xorg/driver/xf86-input-evdev/-/archive/xf86-input-evdev-2.10.6/xf86-input-evdev-xf86-input-evdev-2.10.6.tar.bz2 -> xf86-input-evdev-2.10.6-gitlab.tar.bz2
+SRC_URI=https://gitlab.freedesktop.org/xorg/driver/xf86-input-evdev/-/archive/xf86-input-evdev-2.11.0/xf86-input-evdev-xf86-input-evdev-2.11.0.tar.bz2 -> xf86-input-evdev-2.11.0-gitlab.tar.bz2
 _eclasses_=autotools	e9ade2787b2f54643c7cdffbfa1cca9c	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	d0939f99dd528dd0c5ec25284877bf5c	libtool	f143db5a74ccd9ca28c1234deffede96	linux-info	c90a203b1c14cfa77bd3e37a0e96c955	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=9beef858db761d143805b47bc311b0a0
+_md5_=abd2b5180b808f0e32527b46e2277e60
