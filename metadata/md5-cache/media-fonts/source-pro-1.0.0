@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DESCRIPTION=Adobe's open source typeface family designed for UI environments
+EAPI=7
+HOMEPAGE=https://adobe-fonts.github.io/source-sans-pro/ https://adobe-fonts.github.io/source-serif-pro/ https://adobe-fonts.github.io/source-code-pro/
+IUSE=cjk
+KEYWORDS=*
+LICENSE=OFL-1.1
+RDEPEND=media-libs/fontconfig media-fonts/source-code-pro media-fonts/source-sans media-fonts/source-serif cjk? ( media-fonts/source-han-sans )
+SLOT=0
+_md5_=dd5139b9692de991b29efdf329eff835

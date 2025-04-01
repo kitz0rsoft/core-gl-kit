@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst postrm prepare setup
+DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DESCRIPTION=Monospaced font family for user interface and coding environments
+EAPI=7
+HOMEPAGE=https://github.com/adobe-fonts/source-code-pro
+IUSE=cjk X
+KEYWORDS=*
+LICENSE=OFL-1.1
+RDEPEND=media-libs/fontconfig cjk? ( media-fonts/source-han-sans )
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=https://github.com/adobe-fonts/source-code-pro/tarball/a0e3aa19323549af1e6f60a1ebf32b912bc1a497 -> source-code-pro-2.042-a0e3aa1.tar.gz
+_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
+_md5_=f2b277e8e38274305b7607981830a392

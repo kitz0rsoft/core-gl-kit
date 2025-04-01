@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst postrm prepare setup
+DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DESCRIPTION=Serif font family for user interface environments
+EAPI=7
+HOMEPAGE=https://adobe-fonts.github.io/source-serif/
+IUSE=cjk X
+KEYWORDS=*
+LICENSE=OFL-1.1
+RDEPEND=media-libs/fontconfig cjk? ( media-fonts/source-han-sans )
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=https://github.com/adobe-fonts/source-serif/tarball/2823e993c53fca27c5c8749f529b56a5a7c77b6b -> source-serif-4.005-2823e99.tar.gz
+_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
+_md5_=f100465478ce7a6e2718ec33aa1217cf
