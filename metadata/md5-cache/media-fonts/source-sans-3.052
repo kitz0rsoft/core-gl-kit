@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst postrm prepare setup
+DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DESCRIPTION=Sans serif font family for user interface environments
+EAPI=7
+HOMEPAGE=https://adobe-fonts.github.io/source-sans/
+IUSE=cjk X
+KEYWORDS=*
+LICENSE=OFL-1.1
+RDEPEND=media-libs/fontconfig cjk? ( media-fonts/source-han-sans )
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=https://github.com/adobe-fonts/source-sans/tarball/5d173ba058bda87bcff2bb2d53b9d2c59d440ff6 -> source-sans-3.052-5d173ba.tar.gz
+_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
+_md5_=6896c223aa7cb541fa31ad196461503c
