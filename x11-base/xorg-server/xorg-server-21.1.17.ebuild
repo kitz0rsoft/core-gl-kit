@@ -7,7 +7,7 @@ inherit meson
 DESCRIPTION="x.org X server"
 HOMEPAGE="https://www.x.org/wiki"
 # SRC_URI="https://www.x.org/releases/individual/xserver/${P}.tar.xz"
-SRC_URI="https://www.x.org/releases/individual/xserver/xorg-server-21.1.16.tar.xz -> xorg-server-21.1.16.tar.xz
+SRC_URI="https://www.x.org/releases/individual/xserver/xorg-server-21.1.17.tar.xz -> xorg-server-21.1.17.tar.xz
 "
 
 LICENSE="MIT"
