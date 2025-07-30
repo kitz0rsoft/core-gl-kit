@@ -6,7 +6,7 @@ inherit autotools linux-info flag-o-matic
 DESCRIPTION="Driver for xorg-server"
 KEYWORDS="*"
 IUSE=" "
-SRC_URI="https://gitlab.freedesktop.org/xorg/driver/xf86-video-amdgpu/-/archive/xf86-video-amdgpu-23.0.0/xf86-video-amdgpu-xf86-video-amdgpu-23.0.0.tar.bz2 -> xf86-video-amdgpu-23.0.0-gitlab.tar.bz2"
+SRC_URI="https://gitlab.freedesktop.org/xorg/driver/xf86-video-amdgpu/-/archive/xf86-video-amdgpu-25.0.0/xf86-video-amdgpu-xf86-video-amdgpu-25.0.0.tar.bz2 -> xf86-video-amdgpu-25.0.0-gitlab.tar.bz2"
 SLOT="0"
 S="$WORKDIR/${PN}-${P}"
 DEPEND="
